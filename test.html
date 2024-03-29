@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact</title>
+<!-- Font Awesome CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+    /* Styles for icons */
+    .contact-icons {
+        margin-top: 20px;
+    }
+    .contact-icons a {
+        color: #333;
+        font-size: 24px;
+        margin-right: 20px;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    .contact-icons a:hover {
+        color: #ffbd39; /* Change color on hover */
+    }
+</style>
+</head>
+<body>
+
+<div style="background-color: #f2f2f2; padding: 40px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 500px; margin: 0 auto;">
+    <h2 style="font-family: Arial, sans-serif; color: #333; margin-bottom: 20px;">Contact Me</h2>
+    <p style="font-size: 16px; color: #666; margin-bottom: 30px;">Feel free to reach out to me for any inquiries or collaborations!</p>
+    
+    <div class="contact-icons">
+        <!-- Font Awesome Icons -->
+        <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <form action="#" method="post" style="margin-top: 20px;">
+        <label for="name" style="font-weight: bold; color: #333;">Name:</label><br>
+        <input type="text" id="name" name="name" style="width: 100%; padding: 10px; margin-top: 5px; border-radius: 20px; border: 1px solid #ccc;"><br>
+        
+        <label for="email" style="font-weight: bold; color: #333; margin-top: 15px;">Email:</label><br>
+        <input type="email" id="email" name="email" style="width: 100%; padding: 10px; margin-top: 5px; border-radius: 20px; border: 1px solid #ccc;"><br>
+        
+        <label for="message" style="font-weight: bold; color: #333; margin-top: 15px;">Message:</label><br>
+        <textarea id="message" name="message" style="width: 100%; padding: 10px; margin-top: 5px; border-radius: 20px; border: 1px solid #ccc;" rows="6"></textarea><br>
+        
+        <input type="submit" value="Submit" style="background-color: #ffbd39; color: white; padding: 12px 24px; border: none; cursor: pointer; margin-top: 20px; border-radius: 20px; display: block; margin: 0 auto;">
+    </form>
+</div>
+
+</body>
+</html>
